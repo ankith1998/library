@@ -95,6 +95,18 @@ class lib extends StatelessWidget {
                     child: Text("ENTER"),
                     color: Colors.pink,
                 ),
+                SizedBox(height: 20.0,),
+                Container(
+                  width: 140.0,
+                  height: 40.0,
+                  decoration: BoxDecoration(
+                    color: Colors.lightBlueAccent,
+                    borderRadius: BorderRadius.circular(40.0),
+                  ),
+
+                  child: Center(child: Text("Login")),
+
+                )
               ],
             ),
 
